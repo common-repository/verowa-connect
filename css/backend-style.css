@@ -1,0 +1,368 @@
+﻿/* General */
+.verowa_input_has_error {
+	border: 1px solid red !important;
+}
+
+.verowa_inline_error_msg {
+	margin: 0.1rem 0 0 0;
+}
+
+.verowa_inline_error_msg,
+.verowa_connect_error_box,
+.verowa_connect_error_box ul li {
+	color: red;
+}
+
+.verowa_inline_error_msg::first-letter {
+	text-transform: uppercase;
+}
+
+.verowa_connect_error_box ul {
+	list-style: none;
+	margin: 0 0 1rem 0;
+}
+
+/* Verowa Settings */
+.verowa_input_disabled {
+	color: #CCC;
+}
+
+.verowa-setting-section {
+	margin-bottom: 1rem;
+}
+
+.verowa-setting-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    position: relative;
+    top: 0.5rem;
+}
+
+.verowa-setting-section + .verowa-setting-section {
+    border-top: 1px solid #c3c4c7;
+}
+.verowa-personlist-options .fa-question-circle {
+	position: relative;
+	top: 3px;
+}
+
+.verowa-keep-outdated-events i {
+	position: relative;
+	top: 4px;
+}
+
+.verowa-manual-link {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.verowa-select-error-first-child {
+	color: #F00 !important;
+}
+
+.verowa-select-error-first-child option:not(first-child) {
+	color: #000;
+}
+
+/* Template editor */
+.verowa-template-overview .column-template_id {
+	width: 25px;
+}
+
+.verowa-template-overview .column-edit {
+	width: 200px;
+}
+
+.verowa-delete-action {
+	color:#F00;
+}
+
+.verowa-edit-ml-template {
+	margin-right: 0.5rem;
+}
+
+.verowa-delelete-ml-template {
+	color: #db2929 !important;
+	display: inline-block;
+	margin-left: 0.5rem;
+}
+
+.verowa-disable-delete, .verowa-disabled-label {
+	color: #808080;
+	cursor: default;
+}
+
+.verowa_form {
+	padding: 15px;
+}
+
+.verowa_form .row {
+	display:flex;
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+}
+
+.verowa_form label {
+	font-weight:bold;
+	font-size:1.0rem;
+	width: 20vw;
+}
+
+.verowa_form .CodeMirror {
+	margin-top: 15px;
+	width: 100%;
+}
+
+#verowa_deprecated_placeholder {
+	flex-basis: 100%;
+	margin-top: 15px;
+	display: flex;
+	flex-flow: column;
+	color: #F00;
+}
+
+#verowa_deprecated_placeholder span.label {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#verowa_deprecated_placeholder p.placeholders {
+	color: #F00;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+#verowa_current_placeholder, .verowa_current_placeholder {
+	margin-top: 15px;
+	width: 75%;
+}
+
+#verowa_current_placeholder .verowa-pcl-btn, .verowa_current_placeholder .verowa-pcl-btn {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: #f6f7f7;
+	color: #2271b1;
+	text-align: center;
+	text-decoration: none;
+	height: 32px;
+	padding: 0 15px;
+	font-size: 11px;
+	margin: 4px 2px;
+	transition: all .3s ease-in-out;
+}
+
+#verowa_current_placeholder .verowa-pcl-group {
+	margin-bottom:1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#verowa_current_placeholder .verowa-pcl-group > div, .verowa_current_placeholder .verowa-pcl-group > div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#verowa_current_placeholder .verowa-pcl-title {
+	font-weight:bold;
+	margin-right: 1rem;
+	width: 100%;
+}
+
+#verowa_current_placeholder .verowa-pcl-btn {
+	background-color: #f0f0f1;
+	color: #0a4b78;
+}
+
+.verowa_form #btn_abort_template {
+	margin-right: 1rem;
+}
+
+.news-settings-wrapper {
+	margin-bottom: 1rem;
+}
+
+.news-settings-wrapper .verowa-pcl-btn {
+	background-color: #dcdcde;
+	color: #0a4b78;
+}
+
+#verowa_current_placeholder .verowa-pcl-btn .dashicons, .news-settings-wrapper .verowa-pcl-btn .dashicons {
+	margin-left: 10px;
+}
+
+.verowa-news-gallery-title {
+	display:flex;
+	align-items: center;
+}
+
+.verowa-news-gallery-title i {
+	margin-left: 1rem;
+	display: inline-block;
+}
+
+.templates .edit.column-edit a {
+	margin: 0 7px;
+	white-space: nowrap !important;
+}
+
+/* Event-list assign */
+.verowa-list-option input {
+	margin-right: 10px;
+}
+
+/* Verowa Optionen */
+.verowa-options-wrapper {
+	width: 99%;
+	box-sizing: border-box;
+}
+
+.verowa-options-wrapper .notice {
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.verowa-options-wrapper .tab-content {
+	position: relative;
+}
+
+.verowa-options-header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.verowa-options-header .nav-tab.tab-active{
+	background-color: #fff;
+	color: #3c434a;
+}
+
+.verowa-options-header > img {
+	margin-right: 1rem;
+}
+
+.verowa-options-header .nav-tab-wrapper {
+	width: 99%;
+}
+
+.verowa-options-wrapper .tab-content {
+	border-left: 1px solid #c3c4c7;
+	border-bottom: 1px solid #c3c4c7;
+	border-right: 1px solid #c3c4c7;
+	padding: 16px;
+}
+
+.tbl-verowa-ddls {
+	display:table;
+}
+
+.tbl-verowa-ddls > div {
+	display: table-row;
+}
+
+.tbl-verowa-ddls > div > * {
+	display: table-cell;
+	margin-bottom: 1rem;
+}
+
+.verowa-filter-group {
+	display: flex;
+}
+
+.verowa-single-filter {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.verowa-wpml-string-en {
+	max-width: 300px;
+	width: 300px !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.verowa-options-wrapper *[role=button] {
+	cursor: pointer;
+	transition: box-shadow .1s linear;
+}
+
+.verowa-options-wrapper *[role=button]:hover {
+	color: #72aee6;
+}
+
+/* Modal Popup */
+
+#verowa-wpml-translation-popup {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	width: 80%;
+	max-width: 800px;
+}
+
+#verowa-wpml-translation-popup h2 {
+	white-space: nowrap;
+}
+
+.verowa-wpml-translation-modal {
+	background-color: #fefefe;
+	padding: 15px;
+	border: 1px solid #888;
+}
+
+.verowa-wpml-translation-modal .row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+/* Spalten */
+.verowa-wpml-translation-modal .column {
+	flex: 1; /* Jede Spalte nimmt gleichen Platz ein */
+	padding: 0 10px;
+}
+
+/* Textarea */
+.verowa-wpml-translation-modal textarea {
+	width: 100%;
+	height: 100px;
+	resize: vertical; /* Erlaubt nur vertikales Vergrößern */
+}
+
+/* Close Button */
+.verowa-wpml-translation-modal .close-button {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.verowa-wpml-translation-modal .close-button:hover,
+.verowa-wpml-translation-modal .close-button:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Save Button */
+.verowa-wpml-translation-modal .verowa-save-button { }
+
+/* WPML-Tab */
+#verowa-wpml-mapping {
+	border-spacing: 0;
+}
+
+#verowa-wpml-mapping td {
+	border-top: 1px solid #c3c4c7;
+	border-collapse: collapse;
+}
+
+#verowa-wpml-mapping td {
+	margin: 0;
+	padding: 5px 0;
+}
+
+#verowa-wpml-mapping tr td:first-child {
+	padding-right: 0.8rem;
+}
